@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "If_statements_focus", "If_statements_focus.pyproj", "{FC6CD09F-1FCD-4040-87A2-7948A6372565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6CD09F-1FCD-4040-87A2-7948A6372565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6CD09F-1FCD-4040-87A2-7948A6372565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19480127-1BEA-4B52-AE23-BB282E5FDD3C}
+	EndGlobalSection
+EndGlobal

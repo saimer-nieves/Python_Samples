@@ -1,0 +1,102 @@
+
+body{
+    background-image: url(images/background.jpg);
+    
+    background-size: 100%;
+    
+}
+/*Css styling for Kobe responsive Images*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 10%;
+    height: 200px;
+    
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+#img-caption{
+    text-align: center;
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: #FFC733;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: #FFC733;
+
+}
+#tribute-info{
+    width:1000px;
+    text-align: justify;
+    color: #FFC733;
+    margin-top: 50px;
+    margin-left:25%;
+    text-indent: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#tribute-link{
+    margin-top: 500px;
+    margin-left: 45%;
+    color: #FFC733;
+}
+#title{
+    padding:20px;
+    background-image: url(images/kobe_banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 100px;
+    width: 700px;
+}
+
+
+li{
+    margin-left: 35%;
+    color:#FFC733;
+    padding: 10px;
+    width: 500px;
+    
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div id="survey-box">
+        <div id="entire_survey">
+            <header>
+            <h1 id="title">Gym Membership</h1>
+            </header>
+            <p id=descripton>Welcome to our Gym!<br> just finish the sing up and we'll get you started</p>
+
+            <form id="survey-form">
+                <label id="name-label">Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Name"><br>
+
+
+                <label id="email-label">Email:</label>
+                <input type="email" name="name" id="email" required placeholder="Email Address"><br><br>
+
+                <hr>
+                <p>How many Years would you consider attending?</p>
+                
+                <label id="number-label">Number:</label>
+                <input type="number" name="name" id="number" min = "0" max = "4" required placeholder="Number of Years">
+                <br><br>
+
+
+
+
+
+                <!--Dropdown Menu-->
+                <p>What is your main Goal on attending?</p>
+                <label id="dropdown-label">selection</label>
+                <select id="dropdown" name="artists">
+                    <option value="Weight_Loss">Weight Loss</option>
+                    <option value="Muscle_Gain">Muscle Gain</option>
+                    <option value="Conditioning">Conditioning</option>
+                    <option value="Strengh"> Strengh</option>
+                </select><br><br>
+
+                <p>How did you hear about us?</p>
+                <!--Radio Buttons-->
+                <div id="radio-buttons">
+                    <input type="radio" name="ad" value="newspaper" > Newspaper<br>
+                    <input type="radio" name="ad" value="online" > Online<br>
+                    <input type="radio" name="ad" value="family/friend" > Family/Friend<br>
+                    <input type="radio" name="ad" value="flyer" > Flyer<br><br><br>
+                </div>
+                <br>
+                <p>What are some of your weakness?</p>
+                    <!--Checkboxes-->
+                <input type="checkbox" name="weakness1" value="Stamina"> Stamina 
+                <input type="checkbox" name="weakness2" value="Speed"> Speed 
+                <input type="checkbox" name="weakness3" value="Strength"> Strength 
+                <input type="checkbox" name="weakness4" value="Maintaining_muscle"> Maintaining Muscle <br><br>
+
+                <!--comment-->
+                <p>Let's get to know you! Any additional Comments?</p>
+                <textarea placeholder="Additional Comments"></textarea><br>
+
+                <input type="submit" id="submit"><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

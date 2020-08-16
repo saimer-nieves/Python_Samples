@@ -1,0 +1,137 @@
+body{
+    text-align: center;
+    background-image: url(images/workout-background.jpg);
+    background-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#survey-box{
+    margin-top:100px;
+    margin-left:450px;
+    background: url(images/box_background.jpg);
+    border-radius: 40px;
+    width:800px;
+    height: 800px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size:900px 1000px;
+    border-width: 5px;
+    border: solid 1px;
+    border-color: black;
+    
+ 
+}
+
+#entire_survey{
+    background-color: #F9F365;
+    margin:80px;
+    border-radius: 40px;
+    padding:20px;
+    border: solid;
+    border-color: black;
+    
+
+    
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+article {
+    float: right;
+    padding: 20px;
+    width: 50%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+  }
+  
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+ 
+
+  #title{
+    font-family: 'Poppins', sans-serif;
+  }
+
+#name{ 
+    width:300px;
+    height:20px;
+    border-radius:5px;
+    margin:5px;
+    
+}
+
+#email{ 
+    width:300px;
+    height:20px;
+    border-radius:5px;
+    
+}
+
+#number{
+    margin-top: 0px;
+    width: 150px;
+    
+}
+
+
+hr{
+    color: black;
+    text-shadow: darkblue;
+}
+
+#radio-buttons{
+    width:300px;
+height: 100px;
+text-align: left; 
+margin-left:200px;
+margin-bottom:20px;}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 10 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F9F365; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F9F365; 
+  }
+
+
+textarea{
+    width:500px;
+    height:100px;
+    resize: none;
+    font-family: 'Times New Roman', Times, serif;
+}

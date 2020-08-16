@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Money_transactions_functions", "Money_transactions_functions.pyproj", "{57BDEB53-9A93-4DD1-AA15-37AF291115E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57BDEB53-9A93-4DD1-AA15-37AF291115E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BDEB53-9A93-4DD1-AA15-37AF291115E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE68ED80-A8C3-481B-8C11-6DB58C83228B}
+	EndGlobalSection
+EndGlobal
